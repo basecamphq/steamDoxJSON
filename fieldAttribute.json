@@ -1,97 +1,106 @@
 {
+    "id": {
+        "attributeType": "int32",
+        "attricuteDescr": "Field ID",
+        "valueInArray": [],
+        "defaultValue": null,
+        "notes": [
+            "required"
+        ]
+    },
     "field_type": {
-        "attributeTyoe": "string",
+        "attributeType": "string",
         "attricuteDescr": "Ffield type",
         "valueInArray": [],
         "defaultValue": null,
         "notes": []
     },
     "label": {
-        "attributeTyoe": "string",
+        "attributeType": "string",
         "attricuteDescr": "Field label",
         "valueInArray": null,
         "defaultValue": null,
         "notes": []
     },
     "hide_label": {
-        "attributeTyoe": "boolean",
+        "attributeType": "boolean",
         "attricuteDescr": "Flag to show or hide the label",
         "valueInArray": null,
         "defaultValue": false,
         "notes": []
     },
     "description": {
-        "attributeTyoe": "string",
+        "attributeType": "string",
         "attricuteDescr": "Field description (shown below field)",
         "valueInArray": null,
         "defaultValue": null,
         "notes": []
     },
     "description_callout": {
-        "attributeTyoe": "boolean",
+        "attributeType": "boolean",
         "attricuteDescr": "Flag to show the description in a callout box",
         "valueInArray": null,
         "defaultValue": false,
         "notes": []
     },
     "default_value": {
-        "attributeTyoe": "string",
+        "attributeType": "string",
         "attricuteDescr": "Initial value for the field",
         "valueInArray": null,
         "defaultValue": null,
         "notes": []
     },
     "options": {
-        "attributeTyoe": "array of mixed types",
+        "attributeType": "array of mixed types",
         "attricuteDescr": "Array of option labels",
         "valueInArray": null,
         "defaultValue": null,
         "notes": []
     },
     "options_values": {
-        "attributeTyoe": "array of mixed types",
+        "attributeType": "array of mixed types",
         "attricuteDescr": "Array of option values",
         "valueInArray": null,
         "defaultValue": null,
         "notes": []
     },
     "required": {
-        "attributeTyoe": "boolean",
+        "attributeType": "boolean",
         "attricuteDescr": "Flag to mark field as required",
         "valueInArray": null,
         "defaultValue": false,
         "notes": []
     },
     "readonly": {
-        "attributeTyoe": "boolean",
+        "attributeType": "boolean",
         "attricuteDescr": "Flag to not allow the field to be changed",
         "valueInArray": null,
         "defaultValue": false,
         "notes": []
     },
     "hidden": {
-        "attributeTyoe": "boolean",
+        "attributeType": "boolean",
         "attricuteDescr": "Flag to mark the field as hidden",
         "valueInArray": null,
         "defaultValue": false,
         "notes": []
     },
     "uniq": {
-        "attributeTyoe": "boolean",
+        "attributeType": "boolean",
         "attricuteDescr": "Flag to mark the field as requiring a unique value",
         "valueInArray": null,
         "defaultValue": false,
         "notes": []
     },
     "colspan": {
-        "attributeTyoe": "int3",
+        "attributeType": "int3",
         "attricuteDescr": "Number of columns the field should span",
         "valueInArray": null,
         "defaultValue": null,
         "notes": []
     },
     "sort": {
-        "attributeTyoe": "boolean",
+        "attributeType": "boolean",
         "attricuteDescr": "Sort index for the field ()",
         "valueInArray": null,
         "defaultValue": false,
@@ -100,7 +109,7 @@
         ]
     },
     "attributes": {
-        "attributeTyoe": "object",
+        "attributeType": "object",
         "attricuteDescr": "Field attributes ()",
         "valueInArray": null,
         "defaultValue": null,
@@ -109,7 +118,7 @@
         ]
     },
     "logic": {
-        "attributeTyoe": "object",
+        "attributeType": "object",
         "attricuteDescr": "Field logic ()",
         "valueInArray": null,
         "defaultValue": null,
@@ -118,7 +127,7 @@
         ]
     },
     "calculation": {
-        "attributeTyoe": "string",
+        "attributeType": "string",
         "attricuteDescr": "Default value calculation ()",
         "valueInArray": null,
         "defaultValue": null,
@@ -126,7 +135,7 @@
             "see Field Calculation section below"
         ]
     },
-    "notes":[
+    "notes": [
         "fileName - fieldAttribute.json",
         "BTL filePath - /Users/brad/Documents/bradProfessional/steam/formStack/formstackParsedDOX/.assets/fieldAttribute.json"
     ]
