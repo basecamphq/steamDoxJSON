@@ -1,0 +1,133 @@
+{
+    "field_type": {
+        "attributeTyoe": "string",
+        "attricuteDescr": "Ffield type",
+        "valueInArray": [],
+        "defaultValue": null,
+        "notes": []
+    },
+    "label": {
+        "attributeTyoe": "string",
+        "attricuteDescr": "Field label",
+        "valueInArray": null,
+        "defaultValue": null,
+        "notes": []
+    },
+    "hide_label": {
+        "attributeTyoe": "boolean",
+        "attricuteDescr": "Flag to show or hide the label",
+        "valueInArray": null,
+        "defaultValue": false,
+        "notes": []
+    },
+    "description": {
+        "attributeTyoe": "string",
+        "attricuteDescr": "Field description (shown below field)",
+        "valueInArray": null,
+        "defaultValue": null,
+        "notes": []
+    },
+    "description_callout": {
+        "attributeTyoe": "boolean",
+        "attricuteDescr": "Flag to show the description in a callout box",
+        "valueInArray": null,
+        "defaultValue": false,
+        "notes": []
+    },
+    "default_value": {
+        "attributeTyoe": "string",
+        "attricuteDescr": "Initial value for the field",
+        "valueInArray": null,
+        "defaultValue": null,
+        "notes": []
+    },
+    "options": {
+        "attributeTyoe": "array of mixed types",
+        "attricuteDescr": "Array of option labels",
+        "valueInArray": null,
+        "defaultValue": null,
+        "notes": []
+    },
+    "options_values": {
+        "attributeTyoe": "array of mixed types",
+        "attricuteDescr": "Array of option values",
+        "valueInArray": null,
+        "defaultValue": null,
+        "notes": []
+    },
+    "required": {
+        "attributeTyoe": "boolean",
+        "attricuteDescr": "Flag to mark field as required",
+        "valueInArray": null,
+        "defaultValue": false,
+        "notes": []
+    },
+    "readonly": {
+        "attributeTyoe": "boolean",
+        "attricuteDescr": "Flag to not allow the field to be changed",
+        "valueInArray": null,
+        "defaultValue": false,
+        "notes": []
+    },
+    "hidden": {
+        "attributeTyoe": "boolean",
+        "attricuteDescr": "Flag to mark the field as hidden",
+        "valueInArray": null,
+        "defaultValue": false,
+        "notes": []
+    },
+    "uniq": {
+        "attributeTyoe": "boolean",
+        "attricuteDescr": "Flag to mark the field as requiring a unique value",
+        "valueInArray": null,
+        "defaultValue": false,
+        "notes": []
+    },
+    "colspan": {
+        "attributeTyoe": "int3",
+        "attricuteDescr": "Number of columns the field should span",
+        "valueInArray": null,
+        "defaultValue": null,
+        "notes": []
+    },
+    "sort": {
+        "attributeTyoe": "boolean",
+        "attricuteDescr": "Sort index for the field ()",
+        "valueInArray": null,
+        "defaultValue": false,
+        "notes": [
+            "Starts at 0"
+        ]
+    },
+    "attributes": {
+        "attributeTyoe": "object",
+        "attricuteDescr": "Field attributes ()",
+        "valueInArray": null,
+        "defaultValue": null,
+        "notes": [
+            "see Field Attributes section"
+        ]
+    },
+    "logic": {
+        "attributeTyoe": "object",
+        "attricuteDescr": "Field logic ()",
+        "valueInArray": null,
+        "defaultValue": null,
+        "notes": [
+            "see Field Logic section below"
+        ]
+    },
+    "calculation": {
+        "attributeTyoe": "string",
+        "attricuteDescr": "Default value calculation ()",
+        "valueInArray": null,
+        "defaultValue": null,
+        "notes": [
+            "see Field Calculation section below"
+        ]
+    },
+    "notes":[
+        "fileName - fieldAttribute.json",
+        "BTL filePath - /Users/brad/Documents/bradProfessional/steam/formStack/formstackParsedDOX/.assets/fieldAttribute.json"
+    ]
+}
