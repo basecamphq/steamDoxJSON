@@ -1,0 +1,415 @@
+{
+    "fieldTypes": {
+        "name": "Field Types",
+        "descr": "Below is a list of Formstack field types that you can use with the API",
+        "fieldTypeArrayDescr": "Below is a list of Formstack field types that you can use with the API",
+        "fieldTypeNotes": [
+            "Subfields only apply for complex fields such as name and address",
+            "They are submitted and returned in array format",
+            "Below is an example of that array format in JSON and URL encoded",
+            "[quick JSON example » NA]",
+            "fileName - fieldTypeArray.json",
+            "BTL filePath - /Users/brad/Documents/bradProfessional/steam/formStack/formstackParsedDOX/.assets/fieldTypeArray.json"
+        ],
+        "fieldTypeObjectArray": {
+            "text": {
+                "typeName": "Short Answer",
+                "key": "text",
+                "contentData": true,
+                "steamDataType": "CRM",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": []
+            },
+            "textarea": {
+                "typeName": "Long Answer",
+                "key": "textarea",
+                "contentData": true,
+                "steamDataType": "FOUO",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": [
+                    "essay, not data"
+                ]
+            },
+            "name": {
+                "typeName": "Name",
+                "key": "name",
+                "contentData": true,
+                "steamDataType": "CRM",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "subFieldsObject": {
+                        "prefix": {
+                            "baseType": "text",
+                            "myDescr": "Mr,Ms,Fr,Sr,Dr",
+                            "notes": []
+                        },
+                        "first": {
+                            "baseType": "text",
+                            "myDescr": "either Common or Legal, specify other in it's own field if necessary",
+                            "notes": [
+                                "anomalies more common when 'Common' possible"
+                            ]
+                        },
+                        "middle": {
+                            "baseType": "text",
+                            "myDescr": "",
+                            "notes": [
+                                "middle Name",
+                                "should NOT have both 'middle' and 'initial'"
+                            ]
+                        },
+                        "initial": {
+                            "baseType": "text",
+                            "myDescr": "",
+                            "notes": [
+                                "First Initial of middle Name",
+                                "¿does this field auto-populate period or does it allow two characters?",
+                                "should NOT have both 'middle' and 'initial'"
+                            ]
+                        },
+                        "last": {
+                            "baseType": "text",
+                            "myDescr": "Legal Last Name",
+                            "notes": [
+                                "be aware can have spaces 'De Gregorio'"
+                            ]
+                        },
+                        "suffix": {
+                            "baseType": "text",
+                            "myDescr": "",
+                            "notes": []
+                        }
+                    },
+                    "notes": []
+                },
+                "notes": [
+                    "subFieldsObject"
+                ]
+            },
+            "address": {
+                "typeName": "Address",
+                "key": "address",
+                "contentData": true,
+                "steamDataType": "CRM",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "subFieldsObject": {
+                        "address": {
+                            "baseType": "text",
+                            "myDescr": "",
+                            "notes": []
+                        },
+                        "address2": {
+                            "baseType": "text",
+                            "myDescr": "",
+                            "notes": []
+                        },
+                        "city": {
+                            "baseType": "text",
+                            "myDescr": "",
+                            "notes": []
+                        },
+                        "state": {
+                            "baseType": "text",
+                            "myDescr": "",
+                            "notes": []
+                        },
+                        "zip": {
+                            "baseType": "text",
+                            "myDescr": "",
+                            "notes": []
+                        },
+                        "country": {
+                            "baseType": "text",
+                            "myDescr": "",
+                            "notes": []
+                        }
+                    },
+                    "notes": []
+                },
+                "notes": [
+                    "subFieldsObject"
+                ]
+            },
+            "email": {
+                "typeName": "Email Address",
+                "key": "email",
+                "contentData": true,
+                "steamDataType": "CRM",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": []
+            },
+            "phone": {
+                "typeName": "Phone Number",
+                "key": "phone",
+                "contentData": true,
+                "steamDataType": "CRM",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": []
+            },
+            "creditcard": {
+                "typeName": "Credit Card",
+                "key": "creditcard",
+                "contentData": true,
+                "steamDataType": "CRM",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": [
+                    "¿ADMIN must decide if this is harvested at all, probably not » STRIPE?"
+                ]
+            },
+            "datetime": {
+                "typeName": "Date/Time Field",
+                "key": "datetime",
+                "contentData": true,
+                "steamDataType": "CRM",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": [
+                    "DOB»Yes - Signature Dates»No"
+                ]
+            },
+            "file": {
+                "typeName": "File Upload",
+                "key": "file",
+                "contentData": true,
+                "steamDataType": "FOUO",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": []
+            },
+            "number": {
+                "typeName": "Number",
+                "key": "number",
+                "contentData": true,
+                "steamDataType": "CRM",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": [
+                    "¿gradeLevel 'value'?"
+                ]
+            },
+            "select": {
+                "typeName": "Select List",
+                "key": "select",
+                "contentData": true,
+                "steamDataType": "CRM",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": []
+            },
+            "radio": {
+                "typeName": "Radio Buttons",
+                "key": "radio",
+                "contentData": true,
+                "steamDataType": "FOUO",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": [
+                    "¿FOUO now using Products for Courses?"
+                ]
+            },
+            "checkbox": {
+                "typeName": "Checkbox",
+                "key": "checkbox",
+                "contentData": true,
+                "steamDataType": "FOUO",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": [
+                    "¿FOUO now using Products for Courses?"
+                ]
+            },
+            "matrix": {
+                "typeName": "Matrix",
+                "key": "matrix",
+                "contentData": true,
+                "steamDataType": null,
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": []
+            },
+            "richtext": {
+                "typeName": "Description Area",
+                "key": "richtext",
+                "contentData": true,
+                "steamDataType": null,
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": [
+                    "just FormStack Design element"
+                ]
+            },
+            "embed": {
+                "typeName": "Embed Code",
+                "key": "embed",
+                "contentData": true,
+                "steamDataType": null,
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": []
+            },
+            "product": {
+                "typeName": "Event/Product Field",
+                "key": "product",
+                "contentData": true,
+                "steamDataType": "COURSES",
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "subFieldsObject": {
+                        "unit_price": {
+                            "baseType": "number",
+                            "myDescr": "",
+                            "notes": [
+                                "¿number?"
+                            ]
+                        },
+                        "quantity": {
+                            "baseType": "number",
+                            "myDescr": "FormStack Admin will ensure either - (dash) or 1 (one)",
+                            "notes": [
+                                "¿number?"
+                            ]
+                        },
+                        "total": {
+                            "baseType": "number",
+                            "myDescr": "quantity * unit_price",
+                            "notes": [
+                                "¿number?"
+                            ]
+                        }
+                    },
+                    "notes": [
+                        "¿'total' is Auto-Calculated in Form?"
+                    ]
+                },
+                "notes": [
+                    "subFieldsObject",
+                    "Label will be made 'CourseKey' by Admin, IT will Process from Drupal to Course Name and Embed in FS Field Object via Postman"
+                ]
+            },
+            "section": {
+                "typeName": "Section",
+                "key": "section",
+                "contentData": true,
+                "steamDataType": null,
+                "descr": "",
+                "attributes": {
+                    "size": {
+                        "defaultValue": null,
+                        "fsDescr": ""
+                    },
+                    "notes": []
+                },
+                "notes": [
+                    "just FormStack Design element"
+                ]
+            }
+        },
+        "notes": [
+            "all 'attributes' Objects are FAUX Placeholders as of 11/7/2022",
+            "see 'fieldTypeArrayRAW.json'['fieldTypeArrayRAW.txt'] to correct above",
+            "however, what is here is sufficient for IT to extricate what it needs"
+        ]
+    }
+}
