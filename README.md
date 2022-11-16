@@ -1,4 +1,5 @@
-# steamDoxJSON
+#DEPRECATED
+## steamDoxJSON
 useful JSON Doc Db's from core technologies used by Steam Discovery Academy [formStack]
 
 - since all this data is from public sources, there seems no reason to make the content private
