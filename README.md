@@ -1,4 +1,4 @@
-#DEPRECATED
+# DEPRECATED
 ## steamDoxJSON
 useful JSON Doc Db's from core technologies used by Steam Discovery Academy [formStack]
 
